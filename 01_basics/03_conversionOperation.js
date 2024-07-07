@@ -36,3 +36,21 @@ let someno= 33
 let stringno = String(someno)
 console.log(typeof stringno);
 console.log(stringno);
+
+
+// *************** Operations ********************
+let value = 3
+let negvalue = -value
+console.log(negvalue) //returns neg of value
+
+let str1 = "Preet" 
+let str2 = " Vaishnav"
+console.log(str1 + str2);
+console.log("1" +2)
+console.log(1 +"2")
+console.log("1" +2+2)
+console.log(1 + 2 + "2")
+// if string first then output by considering input as string and if first is no then output by considering a no
+let gamecounter = 100
+gamecounter ++
+console.log(gamecounter);
