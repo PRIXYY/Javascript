@@ -30,3 +30,6 @@ console.log(addtwo(3,5))
 //Another way to write 
 const addtwoo = (num1 , num2) => num1+num2   // this is implicit return
 console.log(addtwoo(3,5))
+
+//when we want to return an object 
+const add2 = (num1,num2) => ({username:"preet"})
