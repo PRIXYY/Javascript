@@ -22,3 +22,26 @@ addtwo(3)       //will give an error
 const addtwo = function(num){       //when a function is declared like thi you cannot call it before its declaration
     return num +2
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//console.log(a);  //now this will not print as the scope of a will end in the loop
+//console.log(b);  // this also will not print due to same reason
