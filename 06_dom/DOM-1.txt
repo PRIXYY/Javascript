@@ -1,0 +1,36 @@
+Day-1 DOM learning
+document.getElementById('title') : selects by id 
+
+document.getElementById('title').className
+
+document.getElementById('title').getAttribute('class')
+
+document.getElementById('title').getAttribute('id')
+
+document.getElementById('title').setAttribute('class','leading')
+
+title.style.borderRadius = "15px"
+
+title.textContent
+
+title.innerHTML
+
+title.innerText
+
+the difference between innertext and innercontent is that when you manupulate your code so that yo cannot see the 
+text innertext will not show that whereas innercontent will show that
+whereas inner html gives whole html not just text
+
+document.querySelector('h2') :gives first field with input h2
+
+document.querySelector('#title')
+
+const myul = document.querySelector('ul')
+
+const turngreen = myul.querySelector('li') :returns first of three
+
+turngreen.style.backgroundColor = "green"
+
+const templist = document.querySelectorAll('li') 
+
+templist[1].style.color = 'green'
