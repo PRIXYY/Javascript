@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <button id="slap">Slap</button>
+    <button id="kick">Kick</button>
+</body>
+<script>
+    //setInteval:sets a loop on settimeout basically does a task every n ms given
+    const sayName = function(){
+        console.log("Preet!");
+        
+    }
+    const intervalid = setInterval(sayName,2000)
+    
+    //clearInterval :stops setinterval
+
+    clearInterval(intervalid)
+
+</script>
+</html>
